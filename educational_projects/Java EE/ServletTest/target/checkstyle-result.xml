@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.18">
+<file name="C:\Users\User\Desktop\total\Java EE\ServletTest\src\main\java\by\training\vintilov\homework15\classes\Assortment.java">
+</file>
+<file name="C:\Users\User\Desktop\total\Java EE\ServletTest\src\main\java\by\training\vintilov\homework15\classes\Order.java">
+</file>
+<file name="C:\Users\User\Desktop\total\Java EE\ServletTest\src\main\java\by\training\vintilov\homework15\classes\Product.java">
+</file>
+<file name="C:\Users\User\Desktop\total\Java EE\ServletTest\src\main\java\by\training\vintilov\homework15\Servlets\NameServlet.java">
+</file>
+<file name="C:\Users\User\Desktop\total\Java EE\ServletTest\src\main\java\by\training\vintilov\homework15\Servlets\OrderServlet.java">
+</file>
+<file name="C:\Users\User\Desktop\total\Java EE\ServletTest\src\main\java\by\training\vintilov\homework15\Servlets\ProductServlet.java">
+</file>
+</checkstyle>

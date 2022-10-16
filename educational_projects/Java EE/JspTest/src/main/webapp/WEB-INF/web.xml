@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+    <display-name>Archetype Created Web Application</display-name>
+
+    <welcome-file-list>
+        <welcome-file>WelcomeFile.jsp</welcome-file>
+    </welcome-file-list>
+
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/WEB-INF/ErrorPages/JspUrlError.jsp</location>
+    </error-page>
+
+
+    <filter>
+        <filter-name>ErrorFilter</filter-name>
+        <filter-class>by.training.vintilov.homework17.Filtres.ErrorFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ErrorFilter</filter-name>
+        <url-pattern>/catalog</url-pattern>
+        <url-pattern>/order</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>NameServlet</servlet-name>
+        <servlet-class>by.training.vintilov.homework17.Servlets.NameServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NameServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>by.training.vintilov.homework17.Servlets.OrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/order</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ProductServlet</servlet-name>
+        <servlet-class>by.training.vintilov.homework17.Servlets.ProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductServlet</servlet-name>
+        <url-pattern>/catalog</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ErrorSessionServlet</servlet-name>
+        <servlet-class>by.training.vintilov.homework17.ErrorServlets.ErrorSessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ErrorSessionServlet</servlet-name>
+        <url-pattern>/errorSession</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ErrorLoginServlet</servlet-name>
+        <servlet-class>by.training.vintilov.homework17.ErrorServlets.ErrorLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ErrorLoginServlet</servlet-name>
+        <url-pattern>/errorLogin</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

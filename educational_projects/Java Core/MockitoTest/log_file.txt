@@ -1,0 +1,3 @@
+2022-10-16 15:38:53 INFO  MailServiceImpl:73 - getDeveloperEmails method has been called
+2022-10-16 15:38:54 INFO  MailServiceImpl:73 - getDeveloperEmails method has been called
+2022-10-16 15:39:09 INFO  UserMailExtractor:15 - getMailsFromUsers method has been called

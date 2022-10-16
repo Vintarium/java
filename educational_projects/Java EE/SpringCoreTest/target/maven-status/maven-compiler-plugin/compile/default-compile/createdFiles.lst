@@ -1,0 +1,16 @@
+by\training\vintilov\filtres\ErrorFilter.class
+by\training\vintilov\dao\ProductDao.class
+by\training\vintilov\entity\ReceiptProduct.class
+by\training\vintilov\dao\CustomerDao.class
+by\training\vintilov\service\ProductService.class
+by\training\vintilov\entity\Product.class
+by\training\vintilov\service\ReceiptProductService.class
+by\training\vintilov\servlets\LoginServlet.class
+by\training\vintilov\service\ConnectDb.class
+by\training\vintilov\dao\ReceiptDao.class
+by\training\vintilov\entity\Customer.class
+by\training\vintilov\entity\Receipt.class
+by\training\vintilov\service\ReceiptService.class
+by\training\vintilov\servlets\CatalogServlet.class
+by\training\vintilov\dao\ReceiptProductDao.class
+by\training\vintilov\service\CustomerService.class
